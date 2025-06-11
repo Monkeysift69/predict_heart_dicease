@@ -29,29 +29,6 @@ All rights and credit go to the original creators. This repository uses the data
 - Accuracy > 80% on test set
 - Confusion matrix and feature importance visualizations included
 
-## 🧪 How to Use
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/predict_heart_disease.git
-cd predict_heart_disease
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the notebook:
-Open `predict_heart_decease.ipynb` and run all cells to reproduce the results.
-
-## 📦 Optional Model Loading
-```python
-import joblib
-model = joblib.load("ridge_model.pkl")
-predictions = model.predict(X_test_scaled)
-```
-
-
 
 **Author**: Rachata Athikamanon  
 **License**: MIT
